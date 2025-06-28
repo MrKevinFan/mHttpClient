@@ -16,7 +16,7 @@ set(MHTTPCLIENT_SOURCES
 # 主库
 add_library(mHttpClient SHARED src/http_get_params.c)
 # 主程序
-#add_executable(mJson)
+#add_executable(mHttpClient)
 target_sources(mHttpClient PRIVATE ${MHTTPCLIENT_SOURCES})
 target_include_directories(mHttpClient PRIVATE include src)
 if(WIN32)
