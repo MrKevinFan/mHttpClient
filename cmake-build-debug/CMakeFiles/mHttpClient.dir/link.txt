@@ -1,3 +1,0 @@
-"D:\Program Files\CLion_2021.1.2_Protable\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\mHttpClient.dir/objects.a
-D:\PROGRA~1\mingw64\bin\ar.exe cr CMakeFiles\mHttpClient.dir/objects.a @CMakeFiles\mHttpClient.dir\objects1.rsp
-D:\PROGRA~1\mingw64\bin\gcc.exe  -lws2_32 -g -shared -o libmHttpClient.dll -Wl,--out-implib,libmHttpClient.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\mHttpClient.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\mHttpClient.dir\linklibs.rsp
